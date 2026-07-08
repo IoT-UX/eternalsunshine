@@ -1,0 +1,106 @@
+/*! Custom giscus theme — senada dengan warna situs (cream/rose/gold)
+ * Dibangun dari struktur resmi giscus (https://giscus.app/themes/light.css)
+ */
+main {
+  --color-prettylights-syntax-comment: #6e7781;
+  --color-prettylights-syntax-constant: #0550ae;
+  --color-prettylights-syntax-entity: #8250df;
+  --color-prettylights-syntax-storage-modifier-import: #24292f;
+  --color-prettylights-syntax-entity-tag: #116329;
+  --color-prettylights-syntax-keyword: #cf222e;
+  --color-prettylights-syntax-string: #0a3069;
+  --color-prettylights-syntax-variable: #953800;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #82071e;
+  --color-prettylights-syntax-invalid-illegal-text: #f6f8fa;
+  --color-prettylights-syntax-invalid-illegal-bg: #82071e;
+  --color-prettylights-syntax-carriage-return-text: #f6f8fa;
+  --color-prettylights-syntax-carriage-return-bg: #cf222e;
+  --color-prettylights-syntax-string-regexp: #116329;
+  --color-prettylights-syntax-markup-list: #3b2300;
+  --color-prettylights-syntax-markup-heading: #0550ae;
+  --color-prettylights-syntax-markup-italic: #24292f;
+  --color-prettylights-syntax-markup-bold: #24292f;
+  --color-prettylights-syntax-markup-deleted-text: #82071e;
+  --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+  --color-prettylights-syntax-markup-inserted-text: #116329;
+  --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+  --color-prettylights-syntax-markup-changed-text: #953800;
+  --color-prettylights-syntax-markup-changed-bg: #ffd8b5;
+  --color-prettylights-syntax-markup-ignored-text: #eaeef2;
+  --color-prettylights-syntax-markup-ignored-bg: #0550ae;
+  --color-prettylights-syntax-meta-diff-range: #8250df;
+  --color-prettylights-syntax-brackethighlighter-angle: #57606a;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
+  --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+
+  /* tombol */
+  --color-btn-text: #4A3B37;
+  --color-btn-bg: #FFFDF9;
+  --color-btn-border: #E9C2C4;
+  --color-btn-shadow: 0 1px 0 rgba(74,59,55,0.04);
+  --color-btn-inset-shadow: inset 0 1px 0 #ffffff40;
+  --color-btn-hover-bg: #F7E6E4;
+  --color-btn-hover-border: #E9C2C4;
+  --color-btn-active-bg: #F3D9DC;
+  --color-btn-active-border: #E9C2C4;
+  --color-btn-selected-bg: #F3D9DC;
+
+  /* tombol utama (kirim komentar) */
+  --color-btn-primary-text: #fff;
+  --color-btn-primary-bg: #9C4A56;
+  --color-btn-primary-border: #9C4A56;
+  --color-btn-primary-shadow: 0 1px 0 rgba(156,74,86,0.15);
+  --color-btn-primary-inset-shadow: inset 0 1px 0 #ffffff08;
+  --color-btn-primary-hover-bg: #C2707C;
+  --color-btn-primary-hover-border: #C2707C;
+  --color-btn-primary-selected-bg: #9C4A56;
+  --color-btn-primary-selected-shadow: inset 0 1px 0 rgba(0,0,0,0.1);
+  --color-btn-primary-disabled-text: #fffc;
+  --color-btn-primary-disabled-bg: #D9A9AF;
+  --color-btn-primary-disabled-border: #D9A9AF;
+
+  --color-action-list-item-default-hover-bg: #F3D9DC80;
+  --color-segmented-control-bg: #F3D9DC;
+  --color-segmented-control-button-bg: #FFFDF9;
+  --color-segmented-control-button-selected-border: #C2707C;
+
+  /* teks & latar utama */
+  --color-fg-default: #4A3B37;
+  --color-fg-muted: #7a6a64;
+  --color-fg-subtle: #9a8b85;
+  --color-canvas-default: #FBF3EC;
+  --color-canvas-overlay: #FFFDF9;
+  --color-canvas-inset: #FFFDF9;
+  --color-canvas-subtle: #F7E6E4;
+  --color-border-default: #E9C2C4;
+  --color-border-muted: #F3D9DC;
+  --color-neutral-muted: #E9C2C433;
+
+  /* aksen / tautan */
+  --color-accent-fg: #9C4A56;
+  --color-accent-emphasis: #9C4A56;
+  --color-accent-muted: #C2707C66;
+  --color-accent-subtle: #F3D9DC;
+
+  --color-success-fg: #1a7f37;
+  --color-attention-fg: #9a6700;
+  --color-attention-muted: #d4a72c66;
+  --color-attention-subtle: #fff8c5;
+  --color-danger-fg: #d1242f;
+  --color-danger-muted: #ff818266;
+  --color-danger-subtle: #ffebe9;
+
+  --color-primer-shadow-inset: inset 0 1px 0 rgba(74,59,55,0.08);
+  --color-scale-gray-1: #F3D9DC;
+  --color-scale-blue-1: #F3D9DC;
+
+  --color-social-reaction-bg-hover: var(--color-scale-gray-1);
+  --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-1);
+}
+
+main .pagination-loader-container {
+  background-image: url(https://github.com/images/modules/pulls/progressive-disclosure-line.svg);
+}
+main .gsc-loading-image {
+  background-image: url(https://github.githubassets.com/images/mona-loading-default.gif);
+}
